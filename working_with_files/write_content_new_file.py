@@ -1,4 +1,4 @@
-with open ('test.txt', 'r') as file:
+with open ('C:/Users/timti/Dev/Solo Projects and Exercises/Python/working_with_files/test.txt', 'r') as file:
     text = file.readlines()
 
 counter = -1
@@ -9,10 +9,6 @@ with open ('new_file.txt', 'w') as new:
         if counter == 4:
             continue
         new.write(i)
-        print(i)
-
-new.close()
-
 
 
     
